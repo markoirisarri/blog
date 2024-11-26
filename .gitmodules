@@ -1,0 +1,4 @@
+[submodule "markoirisarriblog/public"]
+	path = markoirisarriblog/public
+	url = https://github.com/markoirisarri/markoirisarri.github.io
+	branch = main

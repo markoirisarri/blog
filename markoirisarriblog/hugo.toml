@@ -1,0 +1,36 @@
+baseURL = 'https://markoirisarri.github.io/'
+languageCode = 'en-us'
+title = 'Marko Irisarri'
+theme = "researcher"
+
+
+
+[params]
+  avatar = "img/image.png"
+  author = "Chris Turner"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "markoirisarri"
+
+## Main Menu
+
+[[menu.main]]
+  name = "research"
+  weight = 100
+  identifier = "research"
+  url = "/research/"
+[[menu.main]]
+  name = "teaching"
+  identifier = "teaching"
+  weight = 200
+  url = "/teaching/"
+[[menu.main]]
+  name = "cv"
+  identifier = "cv"
+  weight = 300
+  url = "/cv/cv_marko_irisarri.pdf"
